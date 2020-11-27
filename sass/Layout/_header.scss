@@ -1,0 +1,132 @@
+
+
+  .header {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+     url(../Img/hero8large.jpg);
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        overflow: hidden;
+
+   
+        @include respond (phone) {
+          height: 80vh;
+        }                  
+
+        
+    &__main-navi{
+      background-color: rgba(17, 17, 17, 0.9);
+      padding: 1rem;
+      position : fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10000;
+
+}
+
+      &__main-nav {
+        list-style: none;
+        float: right;
+       margin-top: -3.6rem;
+       // margin-bottom: 2rem;
+       @include respond (tab-land) {
+        margin-top: -3.5rem;
+      }             
+      @include respond (phone) {
+        float: left;
+       width: 50%;
+       margin-left: 25%;
+        margin-right: 25%;
+        display: none;
+      }   
+      
+      }
+      
+       &__navi {
+    margin-right: 2rem;
+        display: inline-block;
+        font-size: .8rem;
+        margin-top: 1.5rem;
+
+        @include respond (phone) {
+          display: block;
+          font-size: 1rem;
+        }   
+    
+      }
+       // .bold-link {
+       //   background-color: rgba(160, 160, 156, 0);
+       //   padding: 1rem;
+
+        //@at-root  @include respond (tab-port) {
+           // background-color:navajowhite;
+           // width: 170px;
+         // }        
+       // }    
+    
+    
+    &__link{
+
+      &:link,
+      &:visited {
+
+      text-decoration: none;  
+      color: navajowhite;
+        letter-spacing: 1px; 
+
+     @include respond (phone) {  
+        display: block;
+        }
+                      
+    
+      }
+
+
+          &:hover,
+          &:active {  
+        color: white;
+    }
+
+  }
+    
+      &__span {
+        color: white;
+
+        @include respond (phone) {
+          color: navajowhite;
+        }                   
+        
+    }  
+}
+      .logo-text {
+        font-size: 2.5rem;
+        font-style: italic;
+        font-weight: 700;
+        color:white;
+      }
+
+  .mobile-nav-icon {
+    position: absolute;
+    top: 1.7rem;
+    right: 1.6rem;
+   // margin-top: -2.6rem;
+    cursor: pointer;
+    display: none;
+
+    @include respond (phone) {
+      display: inline-block;
+    }    
+
+
+  }
+
+  .iconss {
+    font-size: 200%;
+    color: white;
+    
+  
+  }
+
+ 

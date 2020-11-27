@@ -1,0 +1,55 @@
+
+
+.testimonial {
+
+    &_box {
+        position: absolute;
+        top: 10%;
+        left: 56%;       
+    }
+
+    &__btn {
+        position: absolute;
+        top: 34%;
+        left: 72%;
+
+        @include respond (tab-land) {
+            top:35%;
+            left: 70%;  
+          }   
+               
+        @include respond (tab-port) {
+            top:33%;
+            left: 65%;  
+          }       
+          
+          @include respond (phone) {
+            top:51%;
+            left: 66%;  
+          }                
+    }
+
+    &__column {
+        background-color: rgba(255, 255, 255, 0.548);
+        height: 12.5rem;
+        padding: 1rem;
+        border-radius: 3px;
+
+    
+        @include respond (tab-port) {
+            height: 13rem; 
+            padding: .8rem;
+          }                
+    }
+}
+
+   .column__box {
+       padding: 1rem;
+       position: absolute;
+       top: 62%;
+       left:1%;
+
+       @include respond (phone) {
+      display: none;
+      }           
+   }

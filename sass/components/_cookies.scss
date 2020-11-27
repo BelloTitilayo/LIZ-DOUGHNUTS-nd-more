@@ -1,0 +1,50 @@
+
+  .cookies  {
+
+&_box    {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 2.5rem;
+
+}
+
+    &__icon {
+        font-size: 4rem;
+        color: white;
+      position: absolute;
+      top: 27%;
+      left: 47%;
+  
+      @include respond (tab-land) { 
+        left: 45%;
+    
+      }      
+
+      @include respond (tab-port) { 
+        top: 29%;
+    
+      }      
+      @include respond (phone) { 
+        font-size: 3.5rem;
+        top:36%;
+    
+      }
+
+    }
+}
+
+   .cookie {
+
+    @include respond (phone) {   
+
+     position: absolute;
+     top: 79%;
+     left: 24%;
+   }
+  }
+  
+
+//.btnwhite-box {
+//text-align: center;

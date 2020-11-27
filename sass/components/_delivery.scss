@@ -1,0 +1,73 @@
+
+
+ .delivery  {
+
+    &_box    {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 1.5rem;
+    }
+      &__icon {
+      font-size: 5rem;
+      color: white;
+    position: absolute;
+    top: 29%;
+    left: 45%;
+
+    @include respond (tab-land) {
+      top: 30%;
+
+      
+    }   
+    
+    @include respond (tab-port) {
+      font-size: 4.5rem;
+      top: 31%;
+    }           
+     
+    @include respond (phone) {
+      font-size: 4rem;
+    left: 44%;
+      top: 32%;
+    }            
+    
+  }
+
+    
+}
+
+  .btn--box {
+    position: absolute;
+    top:61%;
+    left: 35%;
+   
+    @include respond (tab-land) {
+      top: 60%;
+      left: 31%;
+    }          
+
+    @include respond (tab-port) {
+      top:57%;
+      left: 31%;  
+    }            
+    
+  
+    @include respond (phone) {
+      left: 25%;
+      top: 59%;  
+    }            
+  }
+
+
+
+ //"scripts": {
+// "compile:sass": "node-sass sass/main.scss css/style.css -w"
+//},
+//"author": "Lizzy",
+//"license": "ISC",
+//"devDependencies": {
+// "node-sass": "^5.0.0"
+//}
+//} 
