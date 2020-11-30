@@ -35,9 +35,9 @@
             @media only screen and(max-width:37.5em) {@content};  
              }                          //600px / 16px = 37.5em
 
-         //    @if $breakpoint == smallerphone {
-          //    @media only screen and(max-width:25em) {@content};  
-           //    }                          //400px / 16px = 25em
+            @if $breakpoint == smallerphone {
+             @media only screen and(max-width:25em) {@content};  
+                }                          //400px / 16px = 25em
          
 
              @if $breakpoint == big-desktop {

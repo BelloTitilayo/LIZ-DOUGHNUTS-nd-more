@@ -8,6 +8,11 @@
         left: 50%;
         transform: translate(-50%, -50%);
         margin-top: 1.5rem;
+     
+    @include respond (smallerphone) {
+      top: 42%;
+ }  
+     
     }
       &__icon {
       font-size: 5rem;
@@ -32,6 +37,11 @@
     left: 44%;
       top: 32%;
     }            
+    @include respond (smallerphone) {
+     // display: none;
+    left: 41.5%;
+      top: 20%;
+    }              
     
   }
 
@@ -45,7 +55,7 @@
    
     @include respond (tab-land) {
       top: 60%;
-      left: 31%;
+      left: 33.8%;
     }          
 
     @include respond (tab-port) {
@@ -55,9 +65,17 @@
     
   
     @include respond (phone) {
-      left: 25%;
+      left: 25.6%;
       top: 59%;  
-    }            
+    }   
+    
+  
+  
+    @include respond (smallerphone) {
+      left: 26.9%;
+      top: 57.9%;  
+    }              
+    
   }
 
 

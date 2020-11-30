@@ -8,6 +8,12 @@
     transform: translate(-50%, -50%);
     margin-top: 2.5rem;
 
+   
+    @include respond (smallerphone) { 
+      top: 40%;
+  
+    }       
+
 }
 
     &__icon {
@@ -31,18 +37,38 @@
         top:36%;
     
       }
-
+   
+    @include respond (smallerphone) { 
+      top:18%;
+      left: 44%;
+  
+    }
     }
 }
 
    .cookie {
+     
+   @include respond (tab-port) {
+     position: absolute;
+    //top: 79%;
+     left: 25%;
+   }
+
 
     @include respond (phone) {   
 
      position: absolute;
      top: 79%;
-     left: 24%;
+     left: 23.1%;
    }
+
+  
+   @include respond (smallerphone) {   
+
+    position: absolute;
+    top: 84%;
+    left: 15%;
+  } 
   }
   
 

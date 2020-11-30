@@ -60,6 +60,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__primary {
       font-size: 4rem; } }
+  @media only screen and (max-width: 25em) {
+    .heading__primary {
+      font-size: 3.5rem; } }
 
 .heading__primary1 {
   color: aliceblue;
@@ -72,6 +75,10 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__primary1 {
       font-size: 2rem; } }
+  @media only screen and (max-width: 25em) {
+    .heading__primary1 {
+      font-size: 3rem;
+      font-weight: 700 !important; } }
 
 .heading__primary2 {
   color: #2d2b2b;
@@ -81,6 +88,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__primary2 {
       font-size: 3rem; } }
+  @media only screen and (max-width: 25em) {
+    .heading__primary2 {
+      font-size: 3.8rem; } }
 
 .heading__primary3 {
   color: aliceblue;
@@ -107,6 +117,9 @@ body {
     .heading__paragraph {
       font-size: 1.8rem; } }
   @media only screen and (max-width: 37.5em) {
+    .heading__paragraph {
+      font-size: 1.4rem; } }
+  @media only screen and (max-width: 25em) {
     .heading__paragraph {
       font-size: 1.4rem; } }
 
@@ -145,6 +158,17 @@ body {
   display: inline-block;
   font-weight: 700; }
 
+@media only screen and (max-width: 25em) {
+  .smaller_phone {
+    display: block;
+    text-align: center; } }
+
+@media only screen and (max-width: 25em) {
+  .smaller_phone1 {
+    display: block;
+    text-align: center;
+    margin-top: -1.5rem; } }
+
 .BUTTON {
   /*text-align: center; */
   position: absolute;
@@ -166,6 +190,9 @@ body {
     .btn:link, .btn:visited {
       letter-spacing: .6px;
       margin-right: 15px; } }
+  @media only screen and (max-width: 25em) {
+    .btn:link, .btn:visited {
+      margin-right: 45px; } }
 
 .btn:hover, .btn:active {
   background-color: rgba(0, 0, 0, 0.6);
@@ -184,6 +211,11 @@ body {
   @media only screen and (max-width: 37.5em) {
     .btn-grey {
       width: 120px; } }
+  @media only screen and (max-width: 25em) {
+    .btn-grey {
+      width: 150px;
+      margin-bottom: .8rem;
+      margin-top: .8rem; } }
 
 .btn-white {
   color: #eee;
@@ -191,7 +223,9 @@ body {
   width: 170px; }
   @media only screen and (max-width: 56.25em) {
     .btn-white {
-      width: 140px; } }
+      width: 140px;
+      margin-bottom: .7rem;
+      margin-top: .7rem; } }
   @media only screen and (max-width: 37.5em) {
     .btn-white {
       width: 120px;
@@ -219,24 +253,35 @@ body {
   @media only screen and (max-width: 56.25em) {
     .btn-black {
       width: 120px; } }
+  @media only screen and (max-width: 25em) {
+    .btn-black {
+      width: 130px; } }
 
 .btn-box {
   /*text-align: center; */
   position: absolute;
-  bottom: 24%;
-  left: 34%; }
+  bottom: 23%;
+  left: 35%; }
   @media only screen and (max-width: 75em) {
     .btn-box {
-      bottom: 27%;
+      bottom: 28%;
       left: 32%; } }
   @media only screen and (max-width: 56.25em) {
     .btn-box {
-      left: 29%;
+      left: 30%;
       bottom: 32%; } }
   @media only screen and (max-width: 37.5em) {
     .btn-box {
       left: 25%;
       bottom: 23%; } }
+  @media only screen and (max-width: 25em) {
+    .btn-box {
+      bottom: 4%;
+      left: 26%; } }
+
+@media only screen and (max-width: 25em) {
+  .text-center {
+    margin-right: 2px !important; } }
 
 .cookies_box {
   position: absolute;
@@ -244,6 +289,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 2.5rem; }
+  @media only screen and (max-width: 25em) {
+    .cookies_box {
+      top: 40%; } }
 
 .cookies__icon {
   font-size: 4rem;
@@ -261,12 +309,27 @@ body {
     .cookies__icon {
       font-size: 3.5rem;
       top: 36%; } }
+  @media only screen and (max-width: 25em) {
+    .cookies__icon {
+      top: 18%;
+      left: 44%; } }
+
+@media only screen and (max-width: 56.25em) {
+  .cookie {
+    position: absolute;
+    left: 25%; } }
 
 @media only screen and (max-width: 37.5em) {
   .cookie {
     position: absolute;
     top: 79%;
-    left: 24%; } }
+    left: 23.1%; } }
+
+@media only screen and (max-width: 25em) {
+  .cookie {
+    position: absolute;
+    top: 84%;
+    left: 15%; } }
 
 .merch-box {
   position: absolute;
@@ -287,6 +350,12 @@ body {
       top: 45%;
       left: 50%;
       transform: translate(-50%, -50%); } }
+  @media only screen and (max-width: 25em) {
+    .merch-box2 {
+      position: absolute;
+      top: 50%;
+      left: 56%;
+      transform: translate(-50%, -50%); } }
 
 .varieties {
   width: 100%; }
@@ -302,6 +371,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 1.5rem; }
+  @media only screen and (max-width: 25em) {
+    .delivery_box {
+      top: 42%; } }
 
 .delivery__icon {
   font-size: 5rem;
@@ -321,6 +393,10 @@ body {
       font-size: 4rem;
       left: 44%;
       top: 32%; } }
+  @media only screen and (max-width: 25em) {
+    .delivery__icon {
+      left: 41.5%;
+      top: 20%; } }
 
 .btn--box {
   position: absolute;
@@ -329,20 +405,27 @@ body {
   @media only screen and (max-width: 75em) {
     .btn--box {
       top: 60%;
-      left: 31%; } }
+      left: 33.8%; } }
   @media only screen and (max-width: 56.25em) {
     .btn--box {
       top: 57%;
       left: 31%; } }
   @media only screen and (max-width: 37.5em) {
     .btn--box {
-      left: 25%;
+      left: 25.6%;
       top: 59%; } }
+  @media only screen and (max-width: 25em) {
+    .btn--box {
+      left: 26.9%;
+      top: 57.9%; } }
 
 .testimonial_box {
   position: absolute;
   top: 10%;
   left: 56%; }
+  @media only screen and (max-width: 25em) {
+    .testimonial_box {
+      left: 30%; } }
 
 .testimonial__btn {
   position: absolute;
@@ -350,16 +433,20 @@ body {
   left: 72%; }
   @media only screen and (max-width: 75em) {
     .testimonial__btn {
-      top: 35%;
-      left: 70%; } }
+      top: 32.5%;
+      left: 69%; } }
   @media only screen and (max-width: 56.25em) {
     .testimonial__btn {
-      top: 33%;
-      left: 65%; } }
+      top: 36%;
+      left: 67%; } }
   @media only screen and (max-width: 37.5em) {
     .testimonial__btn {
       top: 51%;
       left: 66%; } }
+  @media only screen and (max-width: 25em) {
+    .testimonial__btn {
+      left: 42.9%;
+      top: 59%; } }
 
 .testimonial__column {
   background-color: rgba(255, 255, 255, 0.548);
@@ -439,6 +526,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       height: 80vh; } }
+  @media only screen and (max-width: 25em) {
+    .header {
+      height: 90vh; } }
   .header__main-navi {
     background-color: rgba(17, 17, 17, 0.9);
     padding: 1rem;
@@ -531,6 +621,12 @@ body {
         margin-left: 25%;
         margin-right: 25%;
         margin-bottom: .7rem; } }
+    @media only screen and (max-width: 25em) {
+      .row .col-1-of-2 {
+        width: 90% !important;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: .7rem; } }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 5rem) / 3); }
   .row .col-2-of-3 {
@@ -543,7 +639,10 @@ body {
         margin-left: 25%;
         margin-right: 25%;
         margin-bottom: 1.2rem;
-        margin-top: .4rem; } }
+        margin-top: .6rem; } }
+    @media only screen and (max-width: 25em) {
+      .row .col-1-of-4 {
+        margin-top: .8rem; } }
   .row .col-2-of-4 {
     width: calc( 2 * ((100% - 3 * 5rem) / 4) + 5rem); }
   .row .col-3-of-4 {
@@ -573,6 +672,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .section-cookies {
       height: 80vh; } }
+  @media only screen and (max-width: 37.5em) {
+    .section-cookies {
+      height: 70vh; } }
 
 .section-merch {
   background-image: url(../img/Merchlarge.jpg);
@@ -601,6 +703,9 @@ body {
   position: relative;
   background-position: center;
   overflow: hidden; }
+  @media only screen and (max-width: 25em) {
+    .section-delivery {
+      height: 85vh; } }
 
 .section-testimonial {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/column4large.jpg);
@@ -613,6 +718,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .section-testimonial {
       height: 85vh; } }
+  @media only screen and (max-width: 25em) {
+    .section-testimonial {
+      height: 80vh; } }
 
 .footer {
   margin-top: -6rem;

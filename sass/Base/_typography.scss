@@ -25,7 +25,11 @@ body {
 
       @include respond (phone) {
         font-size: 4rem;
-      }                 
+      }    
+   
+      @include respond (smallerphone) {
+        font-size: 3.5rem;
+      }                    
 }
 
   
@@ -41,7 +45,11 @@ body {
       }      
       @include respond (phone) {
         font-size: 2rem;
-      }            
+      }    
+      @include respond (smallerphone) {
+        font-size: 3rem;
+        font-weight: 700 !important;
+      }                       
 }
 
   .heading__primary2 {
@@ -52,7 +60,10 @@ body {
 
       @include respond (phone) {
         font-size: 3rem;
-      }                 
+      } 
+      @include respond (smallerphone) {
+        font-size: 3.8rem;
+      }                                     
   }
 
   .heading__primary3 {
@@ -90,7 +101,11 @@ body {
               
               @include respond (phone) {
                 font-size: 1.4rem;
+              }   
+              @include respond (smallerphone) {
+                font-size: 1.4rem;
               }                       
+              
         }
 
         .heading__paragraph2 {
@@ -144,3 +159,21 @@ body {
             
         }
             
+   .smaller_phone {
+     
+    @include respond (smallerphone) {
+      display: block;
+      text-align: center;
+    }                  
+
+   }
+
+   .smaller_phone1 {
+     
+    @include respond (smallerphone) {
+      display: block;
+      text-align: center;
+      margin-top: -1.5rem;
+    }                  
+
+   }

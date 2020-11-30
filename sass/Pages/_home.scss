@@ -33,7 +33,10 @@
 
         @include respond (phone) {
           height: 80vh;
-        }                        
+        }  
+        @include respond (phone) {
+          height: 70vh;
+        }                                                   
   }
 
   .section-merch {
@@ -74,6 +77,10 @@
         //  -webkit-filter: blur(3px) brightness(30%);
           //        filter: blur(3px) brightness(30%); 
          // margin-top: -5rem; 
+         
+         @include respond (smallerphone) {     
+          height: 85vh;
+        }       
    } 
 
    .section-testimonial {
@@ -89,6 +96,10 @@
         @include respond (tab-port) {     
           height: 85vh;
         }
+
+        @include respond (smallerphone) {     
+          height: 80vh;
+        }            
    }
 
    .footer {

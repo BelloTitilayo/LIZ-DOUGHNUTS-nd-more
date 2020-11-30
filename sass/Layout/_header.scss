@@ -14,6 +14,11 @@
           height: 80vh;
         }                  
 
+    
+        @include respond (smallerphone) {
+          height: 90vh;
+        }                  
+    
         
     &__main-navi{
       background-color: rgba(17, 17, 17, 0.9);
