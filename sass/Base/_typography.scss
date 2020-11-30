@@ -82,7 +82,12 @@ body {
           
          @include respond (phone) {
           font-size: 2.2rem;
+         }   
+                        
+         @include respond (smallerphone) {
+          font-weight: 700 !important;
          }                  
+         
     }
     .heading__paragraph {
             text-align: center;

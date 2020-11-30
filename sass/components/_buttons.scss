@@ -29,7 +29,7 @@
     } 
     
     @include respond (smallerphone) {
-      margin-right: 45px;
+      margin-right: 35px;
     }                
  }
   &:hover,
@@ -140,8 +140,10 @@
           
     
           @include respond (smallerphone) {
-             bottom:4%;   
-             left: 26%; 
+             position: absolute;
+             top: 71%;
+             left: 53.9%;
+             transform: translate(-50%, -50%);
           }                           
     }     
    }

@@ -103,6 +103,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__primary3 {
       font-size: 2.2rem; } }
+  @media only screen and (max-width: 26.875em) {
+    .heading__primary3 {
+      font-weight: 700 !important; } }
 
 .heading__paragraph {
   text-align: center;
@@ -192,7 +195,7 @@ body {
       margin-right: 15px; } }
   @media only screen and (max-width: 26.875em) {
     .btn:link, .btn:visited {
-      margin-right: 45px; } }
+      margin-right: 35px; } }
 
 .btn:hover, .btn:active {
   background-color: rgba(0, 0, 0, 0.6);
@@ -276,8 +279,10 @@ body {
       bottom: 23%; } }
   @media only screen and (max-width: 26.875em) {
     .btn-box {
-      bottom: 4%;
-      left: 26%; } }
+      position: absolute;
+      top: 71%;
+      left: 53.9%;
+      transform: translate(-50%, -50%); } }
 
 @media only screen and (max-width: 26.875em) {
   .text-center {
@@ -328,8 +333,9 @@ body {
 @media only screen and (max-width: 26.875em) {
   .cookie {
     position: absolute;
-    top: 84%;
-    left: 15%; } }
+    top: 81%;
+    left: 17.1%;
+    text-align: center; } }
 
 .merch-box {
   position: absolute;
@@ -416,8 +422,10 @@ body {
       top: 59%; } }
   @media only screen and (max-width: 26.875em) {
     .btn--box {
-      left: 27%;
-      top: 57.9%; } }
+      position: absolute;
+      top: 70%;
+      left: 54%;
+      transform: translate(-50%, -50%); } }
 
 .testimonial_box {
   position: absolute;

@@ -72,9 +72,15 @@
   
   
     @include respond (smallerphone) {
-      left: 27%;
-      top: 57.9%;  
-    }              
+
+      position: absolute;
+      top: 70%;
+      left: 54%;
+      transform: translate(-50%, -50%);
+   }                             
+     // left: 27%;
+     /// top: 57.9%;  
+             
     
   }
 
