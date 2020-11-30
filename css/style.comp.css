@@ -55,7 +55,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__primary {
       font-size: 4rem; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .heading__primary {
       font-size: 3.5rem; } }
 
@@ -70,7 +70,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__primary1 {
       font-size: 2rem; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .heading__primary1 {
       font-size: 3rem;
       font-weight: 700 !important; } }
@@ -83,7 +83,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__primary2 {
       font-size: 3rem; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .heading__primary2 {
       font-size: 3.8rem; } }
 
@@ -114,7 +114,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading__paragraph {
       font-size: 1.4rem; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .heading__paragraph {
       font-size: 1.4rem; } }
 
@@ -153,12 +153,12 @@ body {
   display: inline-block;
   font-weight: 700; }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 26.875em) {
   .smaller_phone {
     display: block;
     text-align: center; } }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 26.875em) {
   .smaller_phone1 {
     display: block;
     text-align: center;
@@ -185,7 +185,7 @@ body {
     .btn:link, .btn:visited {
       letter-spacing: .6px;
       margin-right: 15px; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .btn:link, .btn:visited {
       margin-right: 45px; } }
 
@@ -206,7 +206,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .btn-grey {
       width: 120px; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .btn-grey {
       width: 150px;
       margin-bottom: .8rem;
@@ -248,7 +248,7 @@ body {
   @media only screen and (max-width: 56.25em) {
     .btn-black {
       width: 120px; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .btn-black {
       width: 130px; } }
 
@@ -269,12 +269,12 @@ body {
     .btn-box {
       left: 25%;
       bottom: 23%; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .btn-box {
       bottom: 4%;
       left: 26%; } }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 26.875em) {
   .text-center {
     margin-right: 2px !important; } }
 
@@ -284,7 +284,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 2.5rem; }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .cookies_box {
       top: 40%; } }
 
@@ -304,7 +304,7 @@ body {
     .cookies__icon {
       font-size: 3.5rem;
       top: 36%; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .cookies__icon {
       top: 18%;
       left: 44%; } }
@@ -320,7 +320,7 @@ body {
     top: 79%;
     left: 23.1%; } }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 26.875em) {
   .cookie {
     position: absolute;
     top: 84%;
@@ -345,7 +345,7 @@ body {
       top: 45%;
       left: 50%;
       transform: translate(-50%, -50%); } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .merch-box2 {
       position: absolute;
       top: 50%;
@@ -366,7 +366,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 1.5rem; }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .delivery_box {
       top: 42%; } }
 
@@ -388,7 +388,7 @@ body {
       font-size: 4rem;
       left: 44%;
       top: 32%; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .delivery__icon {
       left: 41.5%;
       top: 20%; } }
@@ -409,16 +409,16 @@ body {
     .btn--box {
       left: 25.6%;
       top: 59%; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .btn--box {
-      left: 26.9%;
+      left: 27%;
       top: 57.9%; } }
 
 .testimonial_box {
   position: absolute;
   top: 10%;
   left: 56%; }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .testimonial_box {
       left: 30%; } }
 
@@ -438,7 +438,7 @@ body {
     .testimonial__btn {
       top: 51%;
       left: 66%; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .testimonial__btn {
       left: 42.9%;
       top: 59%; } }
@@ -521,7 +521,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       height: 80vh; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .header {
       height: 90vh; } }
   .header__main-navi {
@@ -616,7 +616,7 @@ body {
         margin-left: 25%;
         margin-right: 25%;
         margin-bottom: .7rem; } }
-    @media only screen and (max-width: 25em) {
+    @media only screen and (max-width: 26.875em) {
       .row .col-1-of-2 {
         width: 90% !important;
         margin-left: 5%;
@@ -635,7 +635,7 @@ body {
         margin-right: 25%;
         margin-bottom: 1.2rem;
         margin-top: .6rem; } }
-    @media only screen and (max-width: 25em) {
+    @media only screen and (max-width: 26.875em) {
       .row .col-1-of-4 {
         margin-top: .8rem; } }
   .row .col-2-of-4 {
@@ -698,7 +698,7 @@ body {
   position: relative;
   background-position: center;
   overflow: hidden; }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .section-delivery {
       height: 85vh; } }
 
@@ -713,7 +713,7 @@ body {
   @media only screen and (max-width: 56.25em) {
     .section-testimonial {
       height: 85vh; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 26.875em) {
     .section-testimonial {
       height: 80vh; } }
 
